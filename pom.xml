@@ -32,7 +32,7 @@
 		<lapsa-arquillian-test.version>1.2</lapsa-arquillian-test.version>
 		<javax-jpa-commons.version>1.2-SNAPSHOT</javax-jpa-commons.version>
 		<!-- EJB clients -->
-		<eurasia-dao-client.version>1.0-SNAPSHOT</eurasia-dao-client.version>
+		<eurasia-dao-client.version>1.0</eurasia-dao-client.version>
 	</properties>
 
 	<dependencyManagement>
