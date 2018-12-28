@@ -114,9 +114,9 @@
 	</dependencyManagement>
 
 	<scm>
-		<connection>scm:git:https://gitlab.lapsa.tech/lapsa/eurasia/dao.git</connection>
-		<developerConnection>scm:git:https://gitlab.lapsa.tech/lapsa/eurasia/dao.git</developerConnection>
-		<tag>v1.0</tag>
+		<connection>scm:git:https://github.com/eurasia-insurance/eurasia-dao.git</connection>
+		<developerConnection>scm:git:https://github.com/eurasia-insurance/eurasia-dao.git</developerConnection>
+		<tag>HEAD</tag>
 	</scm>
 
 	<issueManagement>
