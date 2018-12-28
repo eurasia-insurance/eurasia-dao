@@ -9,7 +9,7 @@
 
 	<groupId>tech.lapsa.eurasia</groupId>
 	<artifactId>eurasia-dao-root</artifactId>
-	<version>1.0</version>
+	<version>CURRENT-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>Eurasia Lib : DAO</name>
@@ -22,15 +22,15 @@
 
 	<properties>
 		<!-- BOMS -->
-		<javax-javaee-bom.version>7.0a</javax-javaee-bom.version>
-		<payara-bom.version>4.1.2-2</payara-bom.version>
-		<java-commons.version>1.3</java-commons.version>
+		<javax-javaee-bom.version>CURRENT-SNAPSHOT</javax-javaee-bom.version>
+		<payara-bom.version>CURRENT-SNAPSHOT</payara-bom.version>
+		<java-commons.version>CURRENT-SNAPSHOT</java-commons.version>
 		<!-- tech -->
-		<patterns-dao.version>1.2.1</patterns-dao.version>
-		<lapsa-arquillian-test.version>1.2</lapsa-arquillian-test.version>
-		<javax-jpa-commons.version>1.2</javax-jpa-commons.version>
+		<patterns-dao.version>CURRENT-SNAPSHOT</patterns-dao.version>
+		<lapsa-arquillian-test.version>CURRENT-SNAPSHOT</lapsa-arquillian-test.version>
+		<javax-jpa-commons.version>CURRENT-SNAPSHOT</javax-jpa-commons.version>
 		<!-- EJB clients -->
-		<eurasia-dao-client.version>1.0</eurasia-dao-client.version>
+		<eurasia-dao-client.version>CURRENT-SNAPSHOT</eurasia-dao-client.version>
 	</properties>
 
 	<dependencyManagement>
