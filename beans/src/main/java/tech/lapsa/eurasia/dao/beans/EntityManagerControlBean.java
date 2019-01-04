@@ -28,7 +28,7 @@ public class EntityManagerControlBean {
     public void ping() throws IllegalState {
 	try {
 	    em.find(EurasiaVersion.class, 1, JPAConstants.NO_CACHE_PROPERTIES);
-	} catch (Exception e) {
+	} catch (RuntimeException e) {
 	    throw MyExceptions.format(IllegalState::new,
 		    "Illegal stae of persistence layer. %1$s throwed with message %2$s", e.getClass(), e.getMessage());
 	}
